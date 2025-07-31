@@ -1,4 +1,3 @@
-
 ```
 # 🧠 Cubiq: The zkEVM Blockchain for Mobile
 
@@ -67,7 +66,5 @@ Licensed under MIT. See `LICENSE` file for more details.
 > *"Make decentralization truly mobile."*
 
 Cubiq empowers billions of mobile users to become active participants in blockchain networks without sacrificing performance, security, or decentralization.
-
-```
 
 ```
