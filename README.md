@@ -1,30 +1,73 @@
-# Iota Docs Web App
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+```
+# 🧠 Cubiq: The zkEVM Blockchain for Mobile
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/kesaviwebsolutions-projects/v0-iota-docs-web-app)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/FLFSypPnCOn)
+**Cubiq** is a modular, zkEVM-based blockchain architecture designed to enable lightweight participation from mobile devices (called **Qubes**) by offloading zero-knowledge proof generation to decentralized cloud-based Provers. Cubiq combines zkRollup technology with mobile-first consensus and interoperability features, making Web3 truly decentralized and accessible.
 
-## Overview
+## 🚀 Features
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+- ✅ **zkEVM with Plonky3** for fast recursive proofs
+- 📱 **Mobile node support (Qubes)** for block verification and participation
+- ☁️ **Cloud Prover system** (decentralized, permissionless)
+- 🌐 **zkURL protocol** for proof fetching and syncing
+- 🔄 **Interoperability-first architecture** with cross-chain APIs
+- ⚖️ **DPoS-based consensus** with mobile validator rotation
+- 🧩 Fully modular, pluggable execution and proof layers
 
-## Deployment
+## 📦 Repo Structure (coming soon)
 
-Your project is live at:
+```bash
+/cubiq-core        # zkEVM execution & chain logic
+/qube-sdk          # Mobile client SDK for Qube nodes
+/prover-engine     # Cloud-based proof generation engine
+/zkurl-protocol    # Light client proof fetching protocol
+/contracts         # Qube token, staking, governance contracts
+/docs              # Technical documentation (GitBook source)
+```
 
-**[https://vercel.com/kesaviwebsolutions-projects/v0-iota-docs-web-app](https://vercel.com/kesaviwebsolutions-projects/v0-iota-docs-web-app)**
+## 🧱 Qube Token
 
-## Build your app
+- Ticker: `QUBE`
+- Decimals: `18`
+- 1 QUBE = 10^18 Wei
+- Utility: Staking, governance, prover rewards, gas
 
-Continue building your app on:
+## 🔗 Key Concepts
 
-**[https://v0.dev/chat/projects/FLFSypPnCOn](https://v0.dev/chat/projects/FLFSypPnCOn)**
+- **Qubes** – lightweight mobile nodes that verify and propose blocks
+- **Cloud Provers** – decentralized actors who generate zkSNARK/zkSTARK proofs for block state transitions
+- **zkURL** – new sync protocol allowing Qubes to fetch compact verified proofs
+- **Prover Incentives** – rewarded in QUBE for each accepted proof
 
-## How It Works
+## 📚 Documentation
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+Detailed technical whitepaper and architecture docs available at:
+
+➡️ [**docs.cubiq.org**](https://docs.cubiq.org) *(placeholder link)*
+
+## 👷 Build & Contribute
+
+```bash
+# Clone the repo
+git clone https://github.com/cubiq-labs/cubiq.git
+cd cubiq
+
+# Install dependencies (for each module)
+cd cubiq-core && yarn install
+```
+
+> 📥 Contributions are welcome — please open issues or pull requests for bugs, improvements, or ideas.
+
+## 📜 License
+
+Licensed under MIT. See `LICENSE` file for more details.
+
+## 🧠 Vision
+
+> *"Make decentralization truly mobile."*
+
+Cubiq empowers billions of mobile users to become active participants in blockchain networks without sacrificing performance, security, or decentralization.
+
+```
+
+```
